@@ -16,7 +16,7 @@
                 <li><a href="">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certificates">Certificates</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#contact_me">Contact Me</a></li>
             </ul>
         </nav>
         <div class="banner">
@@ -75,8 +75,27 @@
             </div>
             <a href="">See More <span>--></span></a>
         </div>
-        
+        <div class="main_container" id="contact_me">
+            <h2>Contact Me</h2>
+            <div id="contact_me_container">
+                <form class="contact_me_form" action="https://formsubmit.co/8e0862922f3402a25639bcc38f5a6b58" method="POST" onsubmit="formSubmit()">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="First-name" id="first_name" placeholder="Enter your First name..." required>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="Last-name" id="last_name" placeholder="Enter your Last name..." required>
+                    <label for="email">Email</label>
+                    <input type="text" name="Email" id="email" placeholder="Enter your E-mail..." required>
+                    <label for="message">Message</label>
+                    <textarea name="Message" id="message" cols="45" rows="5" placeholder="How can I help you?" required></textarea>
+                    <input type="submit" id="submit" value="Send">
+                </form>
+                <div class="map_container">
+                    <img src="/IMG/map.png" alt="">
+                </div>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
+<script src="./JS/form.js"></script>
 </html>
