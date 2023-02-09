@@ -23,3 +23,4 @@ let mobileNavDisplay = () => {
 
 navBurger.onclick = mobileNavDisplay;
 navExit.onclick = reset;
+document.body.onhashchange = reset;

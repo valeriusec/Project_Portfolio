@@ -1,0 +1,131 @@
+/*-------------*/
+
+/*MEDIA QUERIES*/
+
+/*-------------*/
+
+@media only screen and (max-width: 1700px)  {
+    #header-nav-bar-menu {
+        width: 60%;
+    }
+
+    .main_grid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .firstcut {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #header-nav-bar-menu {
+        width: 70%;
+    }
+
+    #header-nav-bar-menu li a { 
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #header-nav-bar-menu {
+        width: 80%;
+    }
+
+    .main_grid {
+        grid-template-columns: auto auto auto;
+    }
+
+    .secondcut {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #header-nav-bar-menu {
+        width: 100%;
+    }
+    
+    #header-nav-bar-menu li a { 
+        font-size: 16px;
+    }
+    
+    .main_grid, #certificates_grid {
+        grid-template-columns: auto auto;
+    }
+
+    #contact_me_container {
+        flex-direction: column;
+    }
+
+    #contact_me_container .contact_me_form {
+        margin-left: 0px;
+    }
+
+    #contact_me_container .map_container {
+        margin-right: 0px;
+    }
+
+    footer .footer_container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #header-nav-bar-menu {
+        display: none;
+    }
+
+    .small_screen#nav_burger {
+        display: flex;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    header .banner h1,h2 {
+        font-size: 40px;
+    }
+
+    .main_grid, #certificates_grid {
+        grid-template-columns: auto;
+    }
+
+    .mobilecut {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    header .banner h1 {
+        font-size: 30px;
+    }
+
+    header .banner h2 {
+        font-size: 20px;
+    }
+
+    #contact_me_container .contact_me_form {
+        width: 350px;
+        box-shadow: none;
+    }
+
+    #contact_me_container .map_container {
+        width: 350px;
+    }
+    
+    #contact_me_container .contact_me_form input {
+        width: 75%;
+    }
+
+    #contact_me_container .contact_me_form textarea {
+        width: 75%;
+    }
+
+    #about_me p {
+        width: 94%;
+    }
+}
