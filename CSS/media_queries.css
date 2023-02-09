@@ -106,6 +106,9 @@
 @media only screen and (max-width: 550px) {
     header .banner h1 {
         font-size: 26px;
+        animation: 
+        typing-mobile 1.5s steps(35, end),
+        blink-caret-mobile .65s step-end infinite;
     }
 
     header .banner h2 {
@@ -122,11 +125,11 @@
     }
     
     #contact_me_container .contact_me_form input {
-        width: 75%;
+        width: 85%;
     }
 
     #contact_me_container .contact_me_form textarea {
-        width: 75%;
+        width: 85%;
     }
 
     #about_me p {
