@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/media_queries.css">
+    <script src="https://kit.fontawesome.com/c3b56a7551.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <ul id="header-nav-bar-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Pages/about_me.html">About Me</a></li>
+            <li><a href="/Pages/projects.html">Projects</a></li>
+            <li><a href="/Pages/certificates.html">Certificates</a></li>
+            <li><a href="">Contact Me</a></li>
+        </ul>
+        <div class="small_screen" id="nav_burger">
+            <span id="nav_burger_icon"><i class="fa-solid fa-bars fa-2xl"></i></span>
+            <span id="nav_exit_icon"><i class="fa-solid fa-x fa-2xl"></i></span>
+        </div>
+        <div class="small_screen" id="mobile_nav">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Pages/about_me.html">About Me</a></li>
+                <li><a href="/Pages/projects.html">Projects</a></li>
+                <li><a href="/Pages/certificates.html">Certificates</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+
+            <footer id="nav_footer">
+                <div class="footer_container">
+                    <div class="footer_element">
+                        <h4>Get in touch</h4>
+                        <span>valeriu.secrieru19@gmail.com</span>
+                    </div>
+                    <div class="footer_element">
+                        <h4>Social</h4>
+                        <span><a href="https://www.facebook.com/valeriu.secrieru.75"><i class="fa-brands fa-facebook"></i> Facebook</a></span>
+                        <span><a href="https://www.tiktok.com/@valeriu_code"><i class="fa-brands fa-tiktok"></i> Tiktok</a></span>
+                        <span><a href="https://www.instagram.com/vale_secrieru"><i class="fa-brands fa-instagram"></i> Instagram</a></span>
+                        <span><a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a></span>
+                    </div>
+                    <div class="footer_element">
+                        <h4>Location</h4>
+                        <span>Piazza Carlo e Giulia Mendini 2, Trevenzuolo, Verona, Italia.</span>
+                    </div>
+                </div>
+                
+            </footer>
+
+        </div>
+    </nav>
+    <main>
+        <div class="main_container" id="contact_me">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Contact Me</h2>
+            <div id="contact_me_container">
+                <form class="contact_me_form" action="https://formsubmit.co/8e0862922f3402a25639bcc38f5a6b58" method="POST">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="First-name" id="first_name" placeholder="Enter your First name..." minlength="2" maxlength="30" required>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="Last-name" id="last_name" placeholder="Enter your Last name..." minlength="2" maxlength="30" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="Email" id="email" placeholder="Enter your E-mail..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <label for="message">Message</label>
+                    <textarea name="Message" id="message" placeholder="How can I help you?" required></textarea>
+                    <input type="submit" id="submit" value="Send">
+                </form>
+                <div class="map_container">
+                    <img src="/IMG/map.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_element">
+                <h4>Get in touch</h4>
+                <span>valeriu.secrieru19@gmail.com</span>
+            </div>
+            <div class="footer_element">
+                <h4>Social</h4>
+                <span><a href="https://www.facebook.com/valeriu.secrieru.75"><i class="fa-brands fa-facebook"></i> Facebook</a></span>
+                <span><a href="https://www.tiktok.com/@valeriu_code"><i class="fa-brands fa-tiktok"></i> Tiktok</a></span>
+                <span><a href="https://www.instagram.com/vale_secrieru"><i class="fa-brands fa-instagram"></i> Instagram</a></span>
+                <span><a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a></span>
+            </div>
+            <div class="footer_element">
+                <h4>Location</h4>
+                <span>Piazza Carlo e Giulia Mendini 2, Trevenzuolo, Verona, Italia.</span>
+            </div>
+        </div>
+        <div class="footer_element">
+            <span class="copyright"><em>©2023 Secrieru Valeriu</em></span>
+        </div>
+    </footer>
+</body>
+<script src="/JS/mobile.js"></script>
+</html>
