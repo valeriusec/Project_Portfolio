@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+
     <header>
-        <nav>
+        <nav id="nav">
             <ul id="header-nav-bar-menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">About Me</a></li>
@@ -19,6 +21,41 @@
                 <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#contact_me">Contact Me</a></li>
             </ul>
+            <div class="small_screen" id="nav_burger">
+                <span id="nav_burger_icon"><i class="fa-solid fa-bars fa-2xl"></i></span>
+                <span id="nav_exit_icon"><i class="fa-solid fa-x fa-2xl"></i></span>
+            </div>
+            <div class="small_screen" id="mobile_nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact_me">Contact Me</a></li>
+                </ul>
+
+                <footer id="nav_footer">
+                    <div class="footer_container">
+                        <div class="footer_element">
+                            <h4>Get in touch</h4>
+                            <span>valeriu.secrieru19@gmail.com</span>
+                        </div>
+                        <div class="footer_element">
+                            <h4>Social</h4>
+                            <span><a href=""><i class="fa-brands fa-facebook"></i> Facebook</a></span>
+                            <span><a href=""><i class="fa-brands fa-tiktok"></i> Tiktok</a></span>
+                            <span><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></span>
+                            <span><a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a></span>
+                        </div>
+                        <div class="footer_element">
+                            <h4>Location</h4>
+                            <span>Piazza Carlo e Giulia Mendini 2, Trevenzuolo, Verona, Italia.</span>
+                        </div>
+                    </div>
+                    
+                </footer>
+
+            </div>
         </nav>
         <div class="banner">
             <h1>Hi my name is <span>Valeriu</span></h1>
@@ -41,15 +78,15 @@
                     <div class="grid_card"><span>Work in progress...</span></div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card"><span>Work in progress...</span></div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card"><span>Work in progress...</span></div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card"><span>Work in progress...</span></div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
@@ -99,21 +136,21 @@
                     <div class="grid_container_text"><span>JavaScript</span></div>
                 </div>
 
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card">
                         <span>Work In Progress...</span>
                     </div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
 
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card">
                         <span>Work In Progress...</span>
                     </div>
                     <div class="grid_container_text"><span>Text</span></div>
                 </div>
 
-                <div class="grid_container">
+                <div class="grid_container mobilecut">
                     <div class="grid_card">
                         <span>Work In Progress...</span>
                     </div>
@@ -161,8 +198,9 @@
             </div>
         </div>
         <div class="footer_element">
-            <span id="copyright"><em>©2023 Secrieru Valeriu</em></span>
+            <span class="copyright"><em>©2023 Secrieru Valeriu</em></span>
         </div>
     </footer>
 </body>
+<script src="./JS/mobile.js"></script>
 </html>
