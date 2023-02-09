@@ -85,6 +85,10 @@
 }
 
 @media only screen and (max-width: 650px) {
+    header .banner {
+        padding: 0 10px;
+    }
+    
     header .banner h1,h2 {
         font-size: 40px;
     }
@@ -101,7 +105,7 @@
 
 @media only screen and (max-width: 550px) {
     header .banner h1 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     header .banner h2 {
