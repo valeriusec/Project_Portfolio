@@ -429,10 +429,6 @@ main .main_container {
     cursor: pointer;
 }
 
-#contact_me_container .map_container img {
-    width: 100%;
-}
-
 
 
 /*-------------*/
@@ -508,4 +504,13 @@ footer .footer_container .footer_element span, a {
   @keyframes blink-caret-mobile {
     from, to { border-color: transparent }
     50% { border-color: var(--main-color); }
+  }
+
+  @keyframes dot-anim {
+    0% {
+      transform: translate(-5px, -5px);
+    }
+    100% {
+      transform: translate(5px, 5px);
+    }
   }
