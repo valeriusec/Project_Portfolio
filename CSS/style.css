@@ -78,8 +78,8 @@ header {
     border-right: .15em solid var(--main-color);
     white-space: nowrap;
     animation: 
-        typing 1.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+        typing 1.5s steps(40, end) 1.5s,
+        blink-caret .75s step-end infinite 1.5s;
 }
 
 .banner h2 {
