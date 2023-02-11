@@ -62,7 +62,7 @@
         </div>
     </header>
     <main>
-        <div class="main_container" id="about_me">
+        <div class="main_container reveal" id="about_me">
             <h2>About Me</h2>
             <p>Hi there! I'm Valeriu, a front-end development enthusiast currently living in Italy. At just 21 years old, I'm still a student learning the ropes in this exciting field. Before discovering my passion for technology, I worked as a manual laborer in a warehouse. But I always had a desire to work in the computer world, and it was this ambition that led me to pursue a career in front-end development.</p>
 
@@ -72,7 +72,7 @@
                 
                 <p>I'm excited to continue my journey in the world of front-end development and can't wait to bring my skills, passion, and enthusiasm to future projects.</p>
         </div>
-        <div class="main_container" id="projects">
+        <div class="main_container reveal" id="projects">
             <h2>Projects</h2>
             <div class="main_grid" id="projects_grid">
                 <div class="grid_container">
@@ -112,7 +112,7 @@
             </div>
             <a href="/Pages/projects.html">See More <span>--></span></a>
         </div>
-        <div class="main_container" id="certificates">
+        <div class="main_container reveal" id="certificates">
             <h2>Certificates</h2>
             <div class="main_grid" id="certificates_grid">
 
@@ -160,7 +160,7 @@
             </div>    
             <a href="/Pages/certificates.html">See More <span>--></span></a>
         </div>
-        <div class="main_container" id="contact_me">
+        <div class="main_container reveal" id="contact_me">
             <h2>Contact Me</h2>
             <div id="contact_me_container">
                 <form class="contact_me_form" action="https://formsubmit.co/8e0862922f3402a25639bcc38f5a6b58" method="POST">
@@ -177,9 +177,9 @@
                 <div class="map_container">
                     <canvas
                         id="cobe"
-                        style="width: 100%; height: 100%"
-                        width="800"
-                        height="800"
+                        style="width: 350; height: 350;"
+                        width="350"
+                        height="350"
                     >
                     </canvas>
                 </div>
@@ -217,13 +217,13 @@
     let canvas = document.getElementById("cobe")
   
     const globe = createGlobe(canvas, {
-      devicePixelRatio: 2.2,
-      width: 800,
-      height: 800,
+      devicePixelRatio: 1,
+      width: 350,
+      height: 350,
       phi: 0,
       theta: 0.7,
       dark: 1,
-      diffuse: 1.2,
+      diffuse: 1,
       scale: 1,
       mapSamples:26000,
       mapBrightness: 8,
@@ -242,4 +242,5 @@
       },
     })
   </script>
+  <script src="/JS/animation.js"></script>
 </html>
